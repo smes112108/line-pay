@@ -13,12 +13,9 @@ setup(
     description="LINE Pay API SDK for Python",
     long_description=long_description,
     long_description_content_type="text/x-rst",
-    # author="Sumihiro Kagawa",
-    # author_email="sumihiro@gmail.com",
-    # url="https://github.com/sumihiro3/line-pay-sdk-python",
     author="Guo Zhang Jian"
     author_email="smes112108@gmail.com"
-    # url=""
+    url="https://github.com/smes112108/line-pay"
     license="MIT",
     packages=find_packages(exclude=("tests", "docs", "requests", "examples")),
 	install_requires=_requirements(),
